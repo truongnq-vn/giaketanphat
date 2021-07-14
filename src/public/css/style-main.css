@@ -111,6 +111,12 @@
     font-size: 20px;
 
 }
+.danhmuc_me > h1{
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+
+} 
 .danhmuc_me a{
     color: red;
     font-weight: 600;
