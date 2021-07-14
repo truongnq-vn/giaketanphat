@@ -1,0 +1,41 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" Hỗ trợ về giá kệ siêu thị, kệ sắt v lỗ đa năng, kệ kho hàng, kệ lưới, kệ tôn đục lỗ... Giá kệ siêu thị Tân Phát">
+    <title> Hỗ trợ | Giá kệ siêu thị Tân Phát </title>
+ <meta property="og:image" content="img/baner11.jpg" />
+    <meta property="og:image:width" content="1280" /&>
+    <meta property="og:image:height" content="720"; />
+</head>    
+    <div class="banner2">
+        <img src="" alt="">
+    </div>
+
+<div class="sanpham">
+  <div class="grid2">
+      <div class="row">
+            {{#each hotros}}
+
+          <div class="col l-6 m-6 c-12">
+              <div> 
+                  <div class="grid">
+                    <div class="row">
+                        <div>
+                            <iframe width="396" height="216" src="https://www.youtube.com/embed/{{this.links}}">
+                            </iframe>
+                            <br>
+                            <div class="text">
+                                 <i>{{this.name}}</i>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                  </div>               
+              </div>
+          </div>  
+        {{/each}} 
+
+      </div>
+  </div>
+</div>

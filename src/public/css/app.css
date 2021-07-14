@@ -1,0 +1,438 @@
+
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&family=Rubik:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+}
+/* Header */
+.banner{
+  display: block;
+  width: 100%;
+  height: auto;   
+}
+.banner img{
+  margin-top: 80px;
+  width: 100%;
+}
+.logo{
+  margin-top: 6px;
+  height: 80px;
+  display: block;
+  text-align: center;
+  align-items: center;
+
+}
+
+.logo img{
+  height: 67px;
+  width: 210px;
+}
+.nav_grid{
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  background-color: orange;
+}
+/* Danh mục */
+.danhmuc{
+  display: flex;
+  padding: 30px 0;
+  margin-top: 30px;
+  background-color: rgba(0, 0, 0, 0.1);
+  
+}
+
+.danhmuc_me{
+  text-align: center;
+  align-items: center;
+  font-size: 20px;
+
+}
+.danhmuc_me a{
+  color: red;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+
+}
+.danhmuc_con{
+  text-align: center;
+  align-items: center;
+}
+.danhmuc_con a{
+  padding: 5px 10px;
+  border-radius: 20px;
+  border-style: solid ;
+  border-width: 1px;
+  border-color: green;
+  color: black;
+}
+.ten-danhmuc_con{
+
+}
+/*  <!-- Hình ảnh sản phẩm --> */
+.sanpham{
+  padding:20px 0px;
+  display: block;
+
+
+}
+.boder-sp{
+  margin-top: 15px;
+  text-align: center;
+  min-height: 200px;
+  font-weight: 600;
+  justify-content: center;
+  display: block;
+  background-color:white   ;
+  border: 10px solid #fff;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
+
+}
+.ten-sanpham{
+  margin-top: 15px;
+  color: aquamarine;
+  text-align: center;
+  justify-content: center;
+
+
+}
+.ten-sanpham > a{
+  color: black;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+
+}
+.ten-sanpham > a:hover{
+  color: red;
+}
+.ten-sanpham > p{
+  color: black;
+  font-size: 15px;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.boder-sp > img:hover{
+  border-style: solid ;
+  border-width: 1px;
+  border-color: gray;
+  opacity: 0,6;
+}
+.hinhanh-sanpham{
+  color: aquamarine;
+  text-align: center;
+  min-height: 100px;
+  font-weight: 600;
+  justify-content: center;
+  display: flex;
+
+}
+.hinhanh-sanpham > a > img{
+  width: 100%;
+  display: block;
+}
+
+.mua-sanpham
+{   
+  margin-top: 10px;
+  color: aquamarine;
+  text-align: center;
+  min-height: 40px;
+  font-weight: 600;
+  justify-content: center;
+  display: flex;
+  padding: 0 15px;
+
+}
+
+.mua-sanpham > a > img{
+  height: 30px;
+  width: 100px;
+  justify-content: center;
+  text-align: center;
+}
+.mua-sanpham > a > img:hover{
+  transform: scale(1.1);
+  position: relative;
+}
+
+.phan-hoi{
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  color: black;
+}
+.phan-hoi h2{
+  padding: 10px;
+}
+/* Button  */
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: red; 
+  color: white; 
+}
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+/* Footer */
+.footer{
+  display: block;
+  margin: 10px 0;
+  width: 100%;
+  padding: 10px 10px;
+
+}
+.footer b{
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Roboto', sans-serif;
+}
+.footer p{
+  color: black;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+
+}
+.footer-icon{
+  font-size: 30px;
+}
+.footer-icon a{
+  color: white;
+
+}
+.footer-footer
+{
+  background-color: orange;
+}
+	
+@media (max-width: 1023px)
+{
+  .footer {
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+.danhmuc_con{
+  display: none   ;
+}
+.hinhanh-sanpham a img {
+  width: 100%;
+}
+.ten-sanpham > a{
+  color: black;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+}
+.ten-sanpham > p{
+  color: black;
+  font-size: 20px;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+
+}
+
+/* Ring phone */
+.hotline-phone-ring-wrap {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 999999;
+}
+.hotline-phone-ring {
+  position: relative;
+  visibility: visible;
+  background-color: transparent;
+  width: 110px;
+  height: 110px;
+  cursor: pointer;
+  z-index: 11;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
+  transition: visibility .5s;
+  left: 0;
+  bottom: 0;
+  display: block;
+}
+.hotline-phone-ring-circle {
+	width: 85px;
+  height: 85px;
+  top: 10px;
+  left: 10px;
+  position: absolute;
+  background-color: transparent;
+  border-radius: 100%;
+  border: 2px solid #e60808;
+  -webkit-animation: phonering-alo-circle-anim 1.2s infinite ease-in-out;
+  animation: phonering-alo-circle-anim 1.2s infinite ease-in-out;
+  transition: all .5s;
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  opacity: 0.5;
+}
+.hotline-phone-ring-circle-fill {
+	width: 55px;
+  height: 55px;
+  top: 25px;
+  left: 25px;
+  position: absolute;
+  background-color: rgba(230, 8, 8, 0.7);
+  border-radius: 100%;
+  border: 2px solid transparent;
+  -webkit-animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
+  animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
+  transition: all .5s;
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+}
+.hotline-phone-ring-img-circle {
+	background-color: #e60808;
+	width: 33px;
+  height: 33px;
+  top: 37px;
+  left: 37px;
+  position: absolute;
+  background-size: 20px;
+  border-radius: 100%;
+  border: 2px solid transparent;
+  -webkit-animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
+  animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
+  -webkit-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hotline-phone-ring-img-circle .pps-btn-img {
+	display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.hotline-phone-ring-img-circle .pps-btn-img img {
+	width: 20px;
+	height: 20px;
+}
+.hotline-bar {
+  position: absolute;
+  background: rgba(230, 8, 8, 0.75);
+  height: 40px;
+  width: 180px;
+  line-height: 40px;
+  border-radius: 3px;
+  padding: 0 10px;
+  background-size: 100%;
+  cursor: pointer;
+  transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  z-index: 9;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 50px !important;
+  /* width: 175px !important; */
+  left: 33px;
+  bottom: 37px;
+}
+.hotline-bar > a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  text-indent: 50px;
+  display: block;
+  letter-spacing: 1px;
+  line-height: 40px;
+  font-family: Arial;
+}
+.hotline-bar > a:hover,
+.hotline-bar > a:active {
+  color: #fff;
+}
+@-webkit-keyframes phonering-alo-circle-anim {
+  0% {
+    -webkit-transform: rotate(0) scale(0.5) skew(1deg);
+    -webkit-opacity: 0.1;
+  }
+  30% {
+    -webkit-transform: rotate(0) scale(0.7) skew(1deg);
+    -webkit-opacity: 0.5;
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1) skew(1deg);
+    -webkit-opacity: 0.1;
+  }
+}
+@-webkit-keyframes phonering-alo-circle-fill-anim {
+  0% {
+    -webkit-transform: rotate(0) scale(0.7) skew(1deg);
+    opacity: 0.6;
+  }
+  50% {
+    -webkit-transform: rotate(0) scale(1) skew(1deg);
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(0.7) skew(1deg);
+    opacity: 0.6;
+  }
+}
+@-webkit-keyframes phonering-alo-circle-img-anim {
+  0% {
+    -webkit-transform: rotate(0) scale(1) skew(1deg);
+  }
+  10% {
+    -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+  }
+  20% {
+    -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+  }
+  30% {
+    -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+  }
+  40% {
+    -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+  }
+  50% {
+    -webkit-transform: rotate(0) scale(1) skew(1deg);
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1) skew(1deg);
+  }
+}
+@media (max-width: 768px) {
+  .hotline-bar {
+    display: none;
+  }
+}

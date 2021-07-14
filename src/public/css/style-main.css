@@ -1,0 +1,869 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&family=Rubik:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap');
+
+.body{
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+}
+
+.banner{
+    display: block;
+    width: 100%;
+    height: auto;   
+}
+.banner img{
+    margin-top: 80px;
+    width: 100%;
+    height: 500px;
+}
+.ban{
+    background-color:#F1ECEC;
+
+}
+.ban img{
+    margin-top: 80px;
+    width: 100%;
+
+}
+
+@keyframes fafeIn{
+    from{
+        opacity: 0;
+    }
+    to{ 
+        opacity: 1;
+    }
+}
+
+@media (max-width: 1023px)
+    {   
+    .hinhanh-sanpham a img {
+        width: 100%;
+    }
+    .danhmuc_con{
+        display: none   ;
+    }
+   
+    .ten-sanpham > a{
+        color: black;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+    }
+    .ten-sanpham > p{
+        color: black;
+        font-size: 20px;
+        font-weight: 100;
+        font-family: 'Roboto', sans-serif;
+
+    }
+    .danhmuc{
+    }
+    .banner img{
+        width: 100%;
+        height: auto;
+    }
+
+    .tintuc-xemthem a{
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    .footer{
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+    .feedback img{
+        margin-top: 40px;
+        height: 75px;
+        width: 125px;
+    }
+    .phan-hoi h2{
+        padding: 10px 5px;
+        font-size: 20px;
+    }
+    .baiviet23-phu img{
+    width: 300px;
+    height: 150px;
+    
+    }
+}
+
+/* Danh mục */
+.danhmuc{
+    display: flex;
+    padding: 30px 0;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.1);
+    
+}
+
+.danhmuc_me{
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+
+}
+.danhmuc_me a{
+    color: red;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+
+}
+.danhmuc_con{
+    text-align: center;
+    align-items: center;
+}
+.danhmuc_con a{
+    padding: 5px 10px;
+    border-radius: 20px;
+    border-style: solid ;
+    border-width: 1px;
+    border-color: green;
+    color: black;
+}
+.ten-danhmuc_con{
+
+}
+/*  <!-- Hình ảnh sản phẩm --> */
+.sanpham{
+    padding:20px 0px;
+    display: block;
+
+
+    
+}
+.tieude-baiviet{
+    margin-top: 5px;
+    color: aquamarine;
+    height: 100%;
+
+ 
+}
+.tieude-baiviet > a{
+    color: black;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+}
+.tieude-baiviet > a:hover{
+    color: red;
+}
+.tieude-baiviet > p{
+    color: black;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.boder-baiviet{
+    margin-top: 15px;
+    font-weight: 600;
+    display: block;
+    background-color:white   ;
+    border: 10px solid #fff;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
+
+}
+
+
+.boder-sp{
+    margin-top: 15px;
+    text-align: center;
+    min-height: 200px;
+    font-weight: 600;
+    justify-content: center;
+    display: block;
+    background-color:white   ;
+    border: 10px solid #fff;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
+
+}
+.ten-sanpham{
+    margin-top: 15px;
+    color: aquamarine;
+    text-align: center;
+    justify-content: center;
+
+ 
+}
+.ten-sanpham > a{
+    color: black;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+}
+.ten-sanpham > a:hover{
+    color: red;
+}
+.ten-sanpham > p{
+    color: black;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.boder-sp > img:hover{
+    border-style: solid ;
+    border-width: 1px;
+    border-color: gray;
+    opacity: 0,6;
+}
+.hinhanh-sanpham{
+    color: aquamarine;
+    text-align: center;
+    min-height: 100px;
+    font-weight: 600;
+    justify-content: center;
+    display: flex;
+     align-items: center;
+
+}
+.hinhanh-sanpham > a > img{
+    width: 100%;
+    display: block;
+}
+
+.mua-sanpham
+{   
+    margin-top: 10px;
+    color: aquamarine;
+    text-align: center;
+    min-height: 40px;
+    font-weight: 600;
+    justify-content: center;
+    display: flex;
+    padding: 0 15px;
+
+}
+
+.mua-sanpham > a > img{
+    height: 30px;
+    width: 100px;
+    justify-content: center;
+    text-align: center;
+}
+.mua-sanpham > a > img:hover{
+    transform: scale(1.1);
+    position: relative;
+}
+
+.phan-hoi{
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    color: black;
+}
+.phan-hoi h2{
+    padding: 10px;
+}
+
+
+.tieude-phu a h2{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+a.xemthem{
+    background: #F44336;
+    border: 2px solid transparent;
+    color: #eee;
+    padding: 5px 15px;
+    outline: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+a.xemthem:hover{
+    background: white;
+    border: 2px solid black;
+    color: black;
+    padding: 5px 15px;
+    outline: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+}
+.baiviet{
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+
+}
+.baiviet1{
+    width: 100%;
+    color: black;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
+}
+.baiviet1 img{
+    width: 100%;
+    padding: 5px 5px;
+}
+
+.baiviet1 a h2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+
+}
+.tieude-phu a h2{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tieude-phu p {
+
+    margin-left: 10px;
+    font-size: 15px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+.xemthem1{
+    padding: 10px 0;
+    text-align: center;
+
+}
+.xemthem1 a:hover{
+    color: red;
+
+}
+.xemthem1 a{
+    color: black;
+
+}
+a.xemthem{
+    background: #F44336;
+    border: 2px solid transparent;
+    color: #eee;
+    padding: 5px 15px;
+    outline: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    display: inline-block;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+a.xemthem:hover{
+    background: white;
+    border: 2px solid black;
+    color: black;
+    padding: 5px 15px;
+    outline: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+}
+.baiviet23{
+    width: 100%;
+    color: black;
+    display: block;
+    
+    
+}
+.baiviet23-phu{
+    display: flex;
+    width: 100%;
+    margin-bottom: 20px;
+    color: black;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 10%);   
+}
+.baiviet23-phu img{
+    max-width: 37%;
+
+}
+.tieude-phu > a.xemthem{
+    margin-left: 10px;
+}
+.baiviet23-phu h2{
+    width: 100%;
+    font-size: 17px;
+    font-weight: 300;
+    margin-top: 10px;
+    color: black;
+    font-weight: 500;
+    margin-left: 10px;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+.baiviet > h1{
+    color: #061f47;
+    text-align: center;
+    margin-top: 20px;
+}
+.boder-btn{
+    border-bottom: double;
+    margin-top: 10px;
+}
+.baiviet23-phu2{
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    color: black;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 10%);
+
+}
+.text{
+    text-align: center;
+}
+.extra{
+    background-color:#F1ECEC;
+    height: 500px;
+}
+.footer-footer{
+    background-color:orange;
+    width: 100%;
+
+}
+
+.footer{
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    /* display: flex; */
+    padding: 10px 10px;
+
+}
+.footer b{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+
+  
+}
+.footer p{
+    color: black;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+  
+  
+}
+.footer-icon{
+    font-size: 30px;
+}
+.footer-icon a{
+    color: white;
+
+}
+.anhbaiviet{
+    text-align: center;
+}
+.anhbaiviet > img{
+    width: 70%;
+}
+.hotline-phone-ring-wrap {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999999;
+  }
+  .hotline-phone-ring {
+    position: relative;
+    visibility: visible;
+    background-color: transparent;
+    width: 120px;
+    height: 110px;
+    cursor: pointer;
+    z-index: 11;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    transition: visibility .5s;
+    left: 0;
+    bottom: 0;
+    display: block;
+  }
+  .hotline-phone-ring-circle {
+      width: 85px;
+    height: 85px;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    background-color: transparent;
+    border-radius: 100%;
+    border: 2px solid #e60808;
+    -webkit-animation: phonering-alo-circle-anim 1.2s infinite ease-in-out;
+    animation: phonering-alo-circle-anim 1.2s infinite ease-in-out;
+    transition: all .5s;
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    opacity: 0.5;
+  }
+  .hotline-phone-ring-circle-fill {
+      width: 55px;
+    height: 55px;
+    top: 25px;
+    left: 25px;
+    position: absolute;
+    background-color: rgba(230, 8, 8, 0.7);
+    border-radius: 100%;
+    border: 2px solid transparent;
+    -webkit-animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    transition: all .5s;
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+  }
+  .hotline-phone-ring-img-circle {
+      background-color: #e60808;
+      width: 33px;
+    height: 33px;
+    top: 37px;
+    left: 37px;
+    position: absolute;
+    background-size: 20px;
+    border-radius: 100%;
+    border: 2px solid transparent;
+    -webkit-animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
+    animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hotline-phone-ring-img-circle .pps-btn-img {
+      display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .hotline-phone-ring-img-circle .pps-btn-img img {
+      width: 20px;
+      height: 20px;
+  }
+  .hotline-bar {
+    position: absolute;
+    background: rgba(230, 8, 8, 0.75);
+    height: 40px;
+    width: 180px;
+    line-height: 40px;
+    border-radius: 3px;
+    padding: 0 10px;
+    background-size: 100%;
+    cursor: pointer;
+    transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    z-index: 9;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 50px !important;
+    /* width: 175px !important; */
+    left: 33px;
+    bottom: 37px;
+  }
+  .hotline-bar > a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-indent: 50px;
+    display: block;
+    letter-spacing: 1px;
+    line-height: 40px;
+    font-family: Arial;
+  }
+  .hotline-bar > a:hover,
+  .hotline-bar > a:active {
+    color: #fff;
+  }
+  @-webkit-keyframes phonering-alo-circle-anim {
+    0% {
+      -webkit-transform: rotate(0) scale(0.5) skew(1deg);
+      -webkit-opacity: 0.1;
+    }
+    30% {
+      -webkit-transform: rotate(0) scale(0.7) skew(1deg);
+      -webkit-opacity: 0.5;
+    }
+    100% {
+      -webkit-transform: rotate(0) scale(1) skew(1deg);
+      -webkit-opacity: 0.1;
+    }
+  }
+  @-webkit-keyframes phonering-alo-circle-fill-anim {
+    0% {
+      -webkit-transform: rotate(0) scale(0.7) skew(1deg);
+      opacity: 0.6;
+    }
+    50% {
+      -webkit-transform: rotate(0) scale(1) skew(1deg);
+      opacity: 0.6;
+    }
+    100% {
+      -webkit-transform: rotate(0) scale(0.7) skew(1deg);
+      opacity: 0.6;
+    }
+  }
+  @-webkit-keyframes phonering-alo-circle-img-anim {
+    0% {
+      -webkit-transform: rotate(0) scale(1) skew(1deg);
+    }
+    10% {
+      -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+    }
+    20% {
+      -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+    }
+    30% {
+      -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+    }
+    40% {
+      -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+    }
+    50% {
+      -webkit-transform: rotate(0) scale(1) skew(1deg);
+    }
+    100% {
+      -webkit-transform: rotate(0) scale(1) skew(1deg);
+    }
+  }
+  @media (max-width: 768px) {
+    .hotline-bar {
+      display: none;
+    }
+  }
+  <style>
+@media (min-width: 767px)
+{
+.bottom-bar.visible-phone.footer-toolbar-sp {
+    display: none;
+}	
+}
+	
+	
+@media (max-width: 767px)
+{
+	
+.bottom-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    right: 0;
+    max-width: 640px;
+    margin: 0 auto;
+    background: orange;
+    padding: 7px 0 4px;
+    z-index: 999;
+    box-shadow: 0 -4px 8px 0 rgba(0,0,0,0.2);
+}
+.bottom-bar-ul {
+	margin-bottom: 0px;
+    padding: 0;
+    display: -moz-flex;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+}
+	
+.bottom-bar-ul li {
+    width: 20vw;
+}
+.bottom-bar-ul li a {
+    display: block;
+    color: #696969;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    font-weight: 100;
+}
+	
+.bottom-bar-ul li a i {
+    font-size: 25px;
+    font-weight: 500;
+    color: #696969;
+    width: 25px;
+    height: 25px;
+}
+li {
+    margin: 0;
+    padding: 2px 0;
+    text-indent: 0;
+    list-style: none;
+}	
+	
+}
+.danh-muc-san-pham{
+    width: 100%;
+    background-color: rgb(241, 236, 236);
+
+}
+.danh-muc-san-pham-chinh{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(241, 236, 236);
+ 
+}
+.noidung-mota{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-width: 2px;
+    background-color: white;
+}
+.noidung-mota p{
+    font-family: 'Roboto', sans-serif;
+    padding: 0 10px;
+    
+    
+}
+.noidung-mota b{
+    font-size: 20px;
+    padding: 0 10px;
+    font-family: 'Poppins', sans-serif;
+    color: blue;
+
+}
+.noidung-mota > h2{
+    text-align: center;
+    color: coral;
+}
+.noidung-mota > h2 > b {
+    color: coral;
+}
+.category{
+    margin-top: 10px;
+    width: 100%;
+   
+}
+.sapo{
+    width: 100%;
+    border-width: 2px;
+    background-color: white;
+    border-style: ridge;
+
+}
+.sapo p{
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+    padding: 0 10px;
+}
+.sapo b{
+    color: red;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.danh-muc{
+    border: 1px solid gray;
+    margin-top: 10px;
+    background-color: white;
+    height: 540px;
+    width: 100%;
+}
+.danh-muc h3{
+    color: red;
+    padding: 10px 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+.danh-muc h4{
+    border-bottom: 1px solid gray;
+    padding: 10px 10px;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+
+}
+.danh-muc h4 a{
+    color: black;
+}
+.danh-muc h4 a:hover{
+    color: blue;
+
+}
+.top{
+    border-top: 1px solid gray;
+    color: black;
+}
+.menu-danh-muc{
+    float: left;
+   display: block;
+}
+.hotline{
+    margin-top: 50px;
+    text-align: center;
+
+}
+.hotline h3{
+    background-color: greenyellow;
+}
+.hotline img{
+    width: 100%;
+}
+.hotline b{
+    font-size: 22px;
+    /* color: red; */
+    line-height: 30px;
+}
+.hotline h2{
+    color: red;
+}
+.hotline p{
+    font-size: 13px;
+    line-height: 30px;
+}
+.bai-viet{
+    text-align: center;
+}
+.bai-viet img{
+    width: 70%;
+    margin-bottom: 20px;
+}
+.bai-viet2{
+    text-align: center;
+}
+.bai-viet2 img{
+    width: 100%;
+    margin-bottom: 20px;
+}

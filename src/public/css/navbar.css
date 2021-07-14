@@ -1,0 +1,282 @@
+.nav_bar_grid{
+    display: flex;
+}
+.logo-bar{
+    height: 80px;
+    text-align: center;
+    align-items: center;
+
+}
+.logo-bar-2{
+    display: flex;
+    text-align: center;
+
+
+}
+.icon-bar{
+    align-items: center;
+    position: relative;
+    display: block;
+    font-size: 39px;
+    color: white;
+    float: left;
+    margin-left: 27px;
+    margin-top: 16px;
+
+}
+
+.icon-close{
+    position: relative;
+    display: block;
+    color: white;
+    height: 80px;
+    background-color: aqua;
+
+}
+.logo{
+    margin-top: 6px;
+    height: 80px;
+    display: block;
+    text-align: center;
+    align-items: center;
+
+}
+
+.logo img{
+    height: 67px;
+    width: 210px;
+}
+
+.menu{
+    height: 80px;
+}
+
+ul{
+    margin-top: 13px;
+    list-style: none;
+    line-height: 30px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+
+
+}
+ul li{
+    display: inline-block;
+    margin: 0 5px;
+    padding: 10px 0;
+
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 20px;
+    padding: 5px 5px;
+    text-decoration: none;
+    
+}
+.pc-menu > ul > li > a:hover{
+    text-decoration: none;
+    border-radius: 5px;
+    color: cyan;
+    box-shadow: 0 0 5px #33ffff, 0 0 5px #66ffff;
+    
+
+}
+li i{
+
+    font-size: 15px;
+    color: white ;
+}
+ul ul {
+    position: absolute;
+    top: 30px;
+    background-color: orange;
+    opacity: 0;
+    visibility: hidden;
+    transition: top 0.3s;
+
+
+}
+ul li:hover > ul{
+    opacity: 1;
+    visibility: visible;
+    top: 40px;
+    
+}
+
+ul ul li{
+    position: relative;
+    margin: 0px;
+    padding: 15px 10px;
+    width: 170px;
+    float: none;
+    display: list-item;
+    border-bottom: 1px solid white;
+}
+ul ul li:hover{
+    border-radius: 5px;
+    color: cyan;
+    box-shadow: none;
+    background-color: red;
+
+}
+ul li ul li a:hover{
+    text-decoration: none;
+
+}
+.nav-close-btn{
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    font-size: 20px;
+    display: none;
+
+}
+.nav-overlay{
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+    animation: fadeIn linear 0.5s;
+}
+.nav-mobile{
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 250px;
+    height: 100%;
+    background-color: orange;
+    opacity: 0.99;
+    list-style: none;
+    transition: all linear 0.2s;
+    transform: translateX(-100% );
+
+}
+.block-mobile{
+    position: relative;
+    top: 100px;
+}
+.nav-input:checked ~ .nav-overlay {
+    display: block;
+}
+.nav-input:checked ~ .nav-mobile {
+    transform: translateX(0);
+
+}
+.nav-input:checked ~ .nav-close-btn {
+    display: block;
+    opacity: 1;
+}
+
+
+@media (max-width: 1023px)
+{
+    .socal-icon{
+        display: flex;
+        font-size: 20px;
+         margin-top: 10px;
+        justify-content: center;
+    }
+    .socal-icon a{
+        padding: 0 8px;
+        color: white;
+
+    }
+    .socal-icon a:hover{
+        color: red;
+    }
+    .nav-mobile{
+        display: block;
+    }
+    .block-mobile li{
+    display: block;
+
+    }
+    .nav-close-btn{
+        display: block;
+    }
+    .menu-mobile{
+        display: block;
+    }
+    .mobile-items{
+        border-bottom: 1px solid #ffff;
+    }
+    .mobile-items2{
+        border-top: 1px solid #ffff;
+    }
+    .nav-pc{
+        background-color: orange;
+        height: 100%;
+        width: 250px;
+        top: 100px;
+    }
+    
+    ul{
+        margin-top: 0px;
+        list-style: none;
+        line-height: 30px;
+    }
+    ul li{
+
+        display: inline-block;
+        margin: 0 5px;
+        padding: 10px 0;
+
+    }
+    ul li a{
+        color: white;
+        text-decoration: none;
+        line-height: 30px;
+        font-size: 20px;
+        padding: 5px 5px;
+
+    }
+    ul li a:hover{
+        border-radius: 5px;
+        color: cyan;
+    }
+    li i{
+
+        font-size: 15px;
+        color: white ;
+    }
+    ul ul {
+        position: absolute;
+        top: 30px;
+        background-color: orange;
+        opacity: 0;
+        visibility: hidden;
+        transition: top 0.3s;
+
+
+    }
+    ul li:hover > ul{
+        opacity: 1;
+        visibility: visible;
+        top: 40px;
+    }
+
+    ul ul li{
+        position: relative;
+        margin: 0px;
+        padding: 15px 10px;
+        width: 170px;
+        float: none;
+        display: list-item;
+        border-bottom: 1px solid white;
+    }
+    ul ul li:hover{
+        border-radius: 5px;
+        color: cyan;
+        box-shadow: none;
+        background-color: red;
+    }
+}
