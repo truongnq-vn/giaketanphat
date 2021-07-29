@@ -11,7 +11,7 @@ const sitemapRouter = require("./routes/sitemap");
 db.connect();
 
 const app = express();
-const PORT = process.env.PORT ||8000;
+const PORT = process.env.PORT ||9000;
 
 app.use("/sitemap.xml", sitemapRouter);
 
