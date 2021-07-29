@@ -318,6 +318,12 @@ a.xemthem:hover{
     height: 50px;
 
 }
+.baiviet > h2{
+    color: green;
+}
+.baiviet > p{
+    padding: 5px 0;
+}
 .baiviet1{
     width: 100%;
     color: black;
@@ -861,11 +867,15 @@ li {
 }
 .bai-viet{
     text-align: center;
+    margin-bottom: 10px;
+
 }
 .bai-viet img{
     width: 70%;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
+
 .bai-viet2{
     text-align: center;
 }

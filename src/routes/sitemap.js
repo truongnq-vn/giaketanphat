@@ -144,7 +144,7 @@ function getRecordsFromDataSource() {
         updated_at: "2021-06-15T12:21:37+00:00",
     };
     const record23 = {
-        url: "http://giakesieuthitanphat.com/tin-tuc/top-5-mau-ke-sieu-thi-gia-re-nam-2021",
+        url: "http://giakesieuthitanphat.com/tin-tuc/5-mau-ke-sieu-thi-gia-re-nhat-nam-2021",
         updated_at: "2021-06-15T12:21:37+00:00",
     };
     const record24 = {
@@ -155,16 +155,23 @@ function getRecordsFromDataSource() {
         url: "http://giakesieuthitanphat.com/tin-tuc/huong-dan-lap-dat-ke-sieu-thi-luoi-don",
         updated_at: "2021-06-15T12:21:37+00:00",
     }; const record26 = {
-        url: "http://giakesieuthitanphat.com/tin-tuc/lap-dat-ke-v-lo-cho-cua-hang-sua-tai-phu-tho",
+        url: "http://giakesieuthitanphat.com/tin-tuc/lap-dat-ke-sieu-thi-sua-tai-phu-tho",
         updated_at: "2021-06-15T12:21:37+00:00",
     };
     const record27 = {
         url: "http://giakesieuthitanphat.com/tin-tuc/lap-dat-ke-sieu-thi-mien-phi-tai-hoa-binh",
         updated_at: "2021-06-15T12:21:37+00:00",
     };
+    const record28 = {
+        url: "http://giakesieuthitanphat.com/tin-tuc/ke-tap-hoa-gia-re-tai-ha-noi",
+        updated_at: "2021-06-15T12:21:37+00:00",
+    };
+    const record29 = {
+        url: "http://giakesieuthitanphat.com/tin-tuc/bac-giang-thi-mua-ke-sieu-thi-o-dau",
+        updated_at: "2021-06-15T12:21:37+00:00",
+    };
 
-
-    return [record1, record2, record3, record4,record5,record6,record7,record8, record9,record10,record11,record12,record13,record14,record15,record16,record17,record18,record19,record20,record21,record23,record24,record25,record26,record27];
+    return [record1, record2, record3, record4,record5,record6,record7,record8, record9,record10,record11,record12,record13,record14,record15,record16,record17,record18,record19,record20,record21,record23,record24,record25,record26,record27,record28,record29];
 }
 
 module.exports = router;
