@@ -164,11 +164,11 @@ function getRecordsFromDataSource() {
     };
     const record28 = {
         url: "https://giakesieuthitanphat.com/tin-tuc/ke-tap-hoa-gia-re-tai-ha-noi",
-        updated_at: "2021-07-30T04:39:51+00:00<",
+        updated_at: "2021-07-30T04:39:51+00:00",
     };
     const record29 = {
         url: "https://giakesieuthitanphat.com/tin-tuc/bac-giang-thi-mua-ke-sieu-thi-o-dau",
-        updated_at: "2021-07-30T04:39:51+00:00<",
+        updated_at: "2021-07-30T04:39:51+00:00",
     };
 
     return [record1, record2, record3, record4,record5,record6,record7,record8, record9,record10,record11,record12,record13,record14,record15,record16,record17,record18,record19,record20,record21,record23,record24,record25,record26,record27,record28,record29];
