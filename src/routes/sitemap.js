@@ -170,8 +170,12 @@ function getRecordsFromDataSource() {
         url: "https://giakesieuthitanphat.com/tin-tuc/bac-giang-thi-mua-ke-sieu-thi-o-dau",
         updated_at: "2021-07-30T04:39:51+00:00",
     };
+    const record30 = {
+        url: "https://giakesieuthitanphat.com/tin-tuc/bao-gia-ke-sieu-thi-ke-tap-hoa-tai-yen-bai",
+        updated_at: "2021-07-30T04:39:51+00:00",
+    };
 
-    return [record1, record2, record3, record4,record5,record6,record7,record8, record9,record10,record11,record12,record13,record14,record15,record16,record17,record18,record19,record20,record21,record23,record24,record25,record26,record27,record28,record29];
+    return [record1, record2, record3, record4,record5,record6,record7,record8, record9,record10,record11,record12,record13,record14,record15,record16,record17,record18,record19,record20,record21,record23,record24,record25,record26,record27,record28,record29,record30];
 }
 
 module.exports = router;
