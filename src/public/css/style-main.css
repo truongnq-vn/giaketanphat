@@ -310,7 +310,9 @@ a.xemthem:hover{
     display: inline-block;
     margin-top: 8px;
 }
-
+.xemthembaiviet{
+    margin-bottom: 50px;
+}
 }
 .baiviet{
     margin-top: 20px;
