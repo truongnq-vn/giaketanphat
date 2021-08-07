@@ -182,8 +182,11 @@ function getRecordsFromDataSource() {
         url: "https://giakesieuthitanphat.com/tin-tuc/mua-ke-sieu-thi-tai-thai-binh",
         updated_at: "2021-08-05T19:36:12+00:00",
     };
-
-    return [record1, record2, record3, record4,record5,record6,record7,record8, record9,record10,record11,record12,record13,record14,record15,record16,record17,record18,record19,record20,record21,record23,record24,record25,record26,record27,record28,record29,record30,record31,record32];
+    const record33 = {
+        url: "https://giakesieuthitanphat.com/tin-tuc/ke-sieu-thi-gia-ke-de-hang-tai-thanh-hoa",
+        updated_at: "2021-08-05T19:36:12+00:00",
+    };
+    return [record1, record2, record3, record4,record5,record6,record7,record8, record9,record10,record11,record12,record13,record14,record15,record16,record17,record18,record19,record20,record21,record23,record24,record25,record26,record27,record28,record29,record30,record31,record32,record33];
 }
 
 module.exports = router;
