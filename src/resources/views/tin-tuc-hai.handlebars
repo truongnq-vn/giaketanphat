@@ -18,7 +18,7 @@
 <div class="sanpham">
   <div class="grid2">
       <div class="row">
-            {{#each news}}
+            {{#each tintucs}}
           <div class="col l-6 m-6 c-12">
               <div class="boder-baiviet"> 
                   <div class="grid">
@@ -26,15 +26,15 @@
 
                         <div class="col l-4 m-4 c-4">
                         <div class="hinhanh-sanpham">
-                            <a href="./tin-tuc/{{this.slug}}"> <img src="../img/bai-viet/{{this.img}}" alt=""></a>
+                            <a href="./tin-tucs/{{this.slug}}"> <img src="../img/bai-viet/{{this.img}}" alt=""></a>
                         </div>
     
                         </div>
                         <div class="col l-8 m-8 c-8">
                             <div class="tieude-baiviet">
-                                <a href="./tin-tuc/{{this.slug}}">{{this.title}}</a>
+                                <a href="./tin-tucs/{{this.slug}}">{{this.title}}</a>
                                 <p>{{this.sapo}}</p>  
-                                <a href="./tin-tuc/{{this.slug}}" class="xemthem" >Chi tiết</a> 
+                                <a href="./tin-tucs/{{this.slug}}" class="xemthem" >Chi tiết</a> 
 
                             </div>
 
@@ -49,16 +49,22 @@
       </div>
   </div>
 </div>
-  
+    <div class="grid2">
+        <div class="phan-trang">
+                <div class="col l-12 m-12 c-12">
+
+                     <div class="pagination">
+                    <a href="/tin-tuc">&laquo;</a>
+                    <a href="/tin-tuc" >1</a>
+                    <a href="/tin-tucs" class="active">2</a>
+
+                    <a href="">&raquo;</a>
+                    </div>
+                    
+                </div>
+            </div>
+      
+
+        </div>
         
     </div>
-  <div class="grid2">
-        <div class="phan-trang">
-                     <div class="pagination">
-                    <a href="">&laquo;</a>
-                    <a href="/tin-tuc" class="active">1</a>
-                    <a href="/tin-tucs">2</a>
-                    <a href="tin-tucs">&raquo;</a>
-                    </div>
-            </div>
-        </div>

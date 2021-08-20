@@ -186,7 +186,24 @@ function getRecordsFromDataSource() {
         url: "https://giakesieuthitanphat.com/tin-tuc/ke-sieu-thi-gia-ke-de-hang-tai-thanh-hoa",
         updated_at: "2021-08-05T19:36:12+00:00",
     };
-    return [record1, record2, record3, record4,record5,record6,record7,record8, record9,record10,record11,record12,record13,record14,record15,record16,record17,record18,record19,record20,record21,record23,record24,record25,record26,record27,record28,record29,record30,record31,record32,record33];
+    const record34 = {
+        url: "https://giakesieuthitanphat.com/tin-tuc/ke-sieu-thi-chat-luong-tai-vinh-phuc",
+        updated_at: "2021-08-05T19:36:12+00:00",
+    };
+    const record35 = {
+        url: "https://giakesieuthitanphat.com/tin-tuc/gia-ke-sieu-thi-tot-nhat-tai-ninh-binh",
+        updated_at: "2021-08-05T19:36:12+00:00",
+    };
+    const record36 = {
+        url: "https://giakesieuthitanphat.com/tin-tucs/van-chuyen-va-lap-dat-ke-sieu-thi-tai-ha-giang",
+        updated_at: "2021-08-05T19:36:12+00:00",
+    };
+    const record37 = {
+        url: "https://giakesieuthitanphat.com/tin-tucs/ke-sieu-thi-gia-re-tai-hai-duong",
+        updated_at: "2021-08-05T19:36:12+00:00",
+    };
+    return [record1, record2, record3, record4,record5,record6,record7,record8, record9,record10,record11,record12,record13,record14,record15,record16,record17,record18,record19,record20,record21,record23,record24,record25,record26,record27,record28,record29,record30,record31,record32,
+        record33, record34, record35,record36,record37];
 }
 
 module.exports = router;
