@@ -202,8 +202,42 @@ function getRecordsFromDataSource() {
         url: "https://giakesieuthitanphat.com/tin-tucs/ke-sieu-thi-gia-re-tai-hai-duong",
         updated_at: "2021-08-05T19:36:12+00:00",
     };
+    const record38 = {
+        url: "https://giakesieuthitanphat.com/tin-tucs/ke-sieu-thi-tai-nam-dinh",
+        updated_at: "2021-08-05T19:36:12+00:00",
+    };
+    const record39 = {
+        url: "https://giakesieuthitanphat.com/tin-tucs/ke-sieu-thi-gia-re-tai-ha-nam",
+        updated_at: "2021-08-05T19:36:12+00:00",
+    };
+    const record40 = {
+        url: "https://giakesieuthitanphat.com/tin-tucs/ke-sieu-thi-tai-lang-son",
+        updated_at: "2021-08-05T19:36:12+00:00",
+    };
+    const record41 = {
+        url: "https://giakesieuthitanphat.com/tin-tucs/ke-sieu-thi-chat-luong-tai-thai-nguyen",
+        updated_at: "2021-08-05T19:36:12+00:00",
+    };
+    const record42 = {
+        url: "https://giakesieuthitanphat.com/tin-tucs/gia-ke-sieu-thi-bac-ninh",
+        updated_at: "2021-08-05T19:36:12+00:00",
+    };
+    const record43 = {
+        url: "https://giakesieuthitanphat.com/tin-tucs/gia-ke-sieu-thi-tai-hai-phong",
+        updated_at: "2021-08-05T19:36:12+00:00",
+    };
+    const record44 = {
+        url: "https://giakesieuthitanphat.com/tin-tucs/mua-ke-sieu-thi-tai-quang-ninh",
+        updated_at: "2021-08-05T19:36:12+00:00",
+    };
+    const record45 = {
+        url: "https://giakesieuthitanphat.com/tin-tucs/gia-ke-sieu-thi-tai-lao-cai",
+        updated_at: "2021-08-05T19:36:12+00:00",
+    };
     return [record1, record2, record3, record4,record5,record6,record7,record8, record9,record10,record11,record12,record13,record14,record15,record16,record17,record18,record19,record20,record21,record23,record24,record25,record26,record27,record28,record29,record30,record31,record32,
-        record33, record34, record35,record36,record37];
+        record33, record34, record35,record36,record37,
+        record38,record39,record40,record41,record42,record43,record44,record45
+    ];
 }
 
 module.exports = router;
